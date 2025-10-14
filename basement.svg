@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 800 600"
+   version="1.1"
+   id="svg17"
+   sodipodi:docname="basement.svg"
+   inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs17">
+    <rect
+       x="508.77193"
+       y="158.59649"
+       width="11.929825"
+       height="40"
+       id="rect32" />
+    <rect
+       x="472.98246"
+       y="171.22807"
+       width="77.192982"
+       height="18.947368"
+       id="rect31" />
+    <rect
+       x="512.2807"
+       y="174.03509"
+       width="28.070175"
+       height="13.333333"
+       id="rect30" />
+    <rect
+       x="392.2807"
+       y="261.05263"
+       width="32.982456"
+       height="13.333333"
+       id="rect29" />
+    <rect
+       x="250.52632"
+       y="325.61404"
+       width="67.368421"
+       height="68.77193"
+       id="rect28" />
+    <rect
+       x="263.15789"
+       y="318.59649"
+       width="34.385965"
+       height="48.421053"
+       id="rect27" />
+    <rect
+       x="246.31579"
+       y="322.80702"
+       width="54.035088"
+       height="45.614035"
+       id="rect26" />
+  </defs>
+  <sodipodi:namedview
+     id="namedview17"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.425"
+     inkscape:cx="374.03509"
+     inkscape:cy="296.49123"
+     inkscape:window-width="1920"
+     inkscape:window-height="1057"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg17" />
+  <!-- Tło -->
+  <rect
+     x="0"
+     y="0"
+     width="800"
+     height="600"
+     fill="#1a1a1a"
+     id="rect1" />
+  <!-- Główny zarys piętra -->
+  <path
+     d="M100,100 L700,100 L700,500 L100,500 Z"
+     fill="#1a1a1a"
+     stroke="#333"
+     stroke-width="2"
+     id="path1" />
+  <!-- Korytarze -->
+  <rect
+     x="150"
+     y="230"
+     width="400"
+     height="20"
+     fill="#333"
+     id="rect2" />
+  <rect
+     x="270"
+     y="230"
+     width="20"
+     height="90"
+     fill="#333"
+     id="rect3" />
+  <!-- Identyfikatory sal dla interakcji -->
+  <rect
+     x="127.01755"
+     y="148.5965"
+     width="100"
+     height="70"
+     fill="rgba(30, 136, 229, 0.2)"
+     stroke="#1e88e5"
+     stroke-width="2"
+     class="room"
+     data-id="B01"
+     data-name="PT WYTWORNICE"
+     data-type="Pomieszczenie techniczne"
+     id="rect4" />
+  <text
+     x="177.01755"
+     y="183.5965"
+     text-anchor="middle"
+     fill="#e0e0e0"
+     font-size="12px"
+     id="text4"><tspan
+       sodipodi:role="line"
+       id="tspan25"
+       x="177.01755"
+       y="183.5965">POMIESZCZENIE</tspan><tspan
+       sodipodi:role="line"
+       id="tspan26"
+       x="177.01755"
+       y="198.5965">ADMINISTRACYJNE</tspan></text>
+  <rect
+     x="237.01755"
+     y="148.5965"
+     width="100"
+     height="70"
+     fill="rgba(30, 136, 229, 0.2)"
+     stroke="#1e88e5"
+     stroke-width="2"
+     class="room"
+     data-id="B02"
+     data-name="ARCHIWUM"
+     data-type="Pomieszczenie techniczne"
+     id="rect5" />
+  <text
+     x="287.01755"
+     y="183.5965"
+     text-anchor="middle"
+     fill="#e0e0e0"
+     font-size="12px"
+     id="text5"><tspan
+       sodipodi:role="line"
+       id="tspan23"
+       x="287.01755"
+       y="183.5965">SKLEPIK</tspan><tspan
+       sodipodi:role="line"
+       id="tspan24"
+       x="287.01755"
+       y="198.5965">SZKOLNY</tspan></text>
+  <rect
+     x="347.01755"
+     y="148.5965"
+     width="100"
+     height="70"
+     fill="rgba(30, 136, 229, 0.2)"
+     stroke="#1e88e5"
+     stroke-width="2"
+     class="room"
+     data-id="B03"
+     data-name="SALA GALERII"
+     data-type="Sala lekcyjna"
+     id="rect6" />
+  <text
+     x="397.01755"
+     y="183.5965"
+     text-anchor="middle"
+     fill="#e0e0e0"
+     font-size="12px"
+     id="text6">SALA LEKCYJNA</text>
+  <g
+     id="g22"
+     transform="translate(7.0175439,-1.4035088)">
+    <rect
+       x="450"
+       y="150"
+       width="211.57895"
+       height="70.701752"
+       fill="rgba(30, 136, 229, 0.2)"
+       stroke="#1e88e5"
+       stroke-width="2"
+       class="room"
+       data-id="B04"
+       data-name="SALA LEKCYJNA"
+       data-type="Sala lekcyjna"
+       id="rect7" />
+  </g>
+  <rect
+     x="567.01752"
+     y="148.5965"
+     width="100"
+     height="70"
+     fill="rgba(30, 136, 229, 0.2)"
+     stroke="#1e88e5"
+     stroke-width="2"
+     class="room"
+     data-id="B05"
+     data-name="SALA LEKCYJNA"
+     data-type="Sala lekcyjna"
+     id="rect8" />
+  <rect
+     x="127.01755"
+     y="248.5965"
+     width="100"
+     height="70"
+     fill="rgba(30, 136, 229, 0.2)"
+     stroke="#1e88e5"
+     stroke-width="2"
+     class="room"
+     data-id="B06"
+     data-name="SALA LEKCYJNA"
+     data-type="Sala lekcyjna"
+     id="rect9" />
+  <text
+     x="177.01755"
+     y="283.5965"
+     text-anchor="middle"
+     fill="#e0e0e0"
+     font-size="12px"
+     id="text9">SALA LEKCYJNA</text>
+  <rect
+     x="347.01755"
+     y="248.5965"
+     width="100"
+     height="70"
+     fill="rgba(30, 136, 229, 0.2)"
+     stroke="#1e88e5"
+     stroke-width="2"
+     class="room"
+     data-id="B07"
+     data-name="SALA MATMA"
+     data-type="Sala lekcyjna"
+     id="rect10" />
+  <text
+     x="507.01755"
+     y="183.5965"
+     text-anchor="middle"
+     fill="#e0e0e0"
+     font-size="12px"
+     id="text7"
+     style="white-space:pre;inline-size:192.085"
+     transform="translate(58.245614,0.70175441)"
+     xml:space="preserve"><tspan
+       x="507.01755"
+       y="183.5965"
+       id="tspan1">SALA LEKCYJNA</tspan></text>
+  <text
+     x="397.01755"
+     y="283.5965"
+     text-anchor="middle"
+     fill="#e0e0e0"
+     font-size="12px"
+     id="text10">SALALEKCYJNA</text>
+  <rect
+     x="227.01755"
+     y="148.5965"
+     width="10"
+     height="10"
+     fill="#f44336"
+     id="rect13" />
+  <rect
+     x="337.01755"
+     y="148.5965"
+     width="10"
+     height="10"
+     fill="#f44336"
+     id="rect14" />
+  <rect
+     x="447.01755"
+     y="148.5965"
+     width="10"
+     height="10"
+     fill="#f44336"
+     id="rect15" />
+  <rect
+     x="557.01752"
+     y="148.5965"
+     width="10"
+     height="10"
+     fill="#f44336"
+     id="rect16" />
+  <path
+     d="m 157.01754,218.59649 h 400"
+     stroke="#4caf50"
+     stroke-width="3"
+     stroke-dasharray="5, 5"
+     id="path16" />
+  <path
+     d="m 277.01754,218.59649 v 100"
+     stroke="#4caf50"
+     stroke-width="3"
+     stroke-dasharray="5, 5"
+     id="path17" />
+  <rect
+     x="507.01755"
+     y="218.5965"
+     width="40"
+     height="30"
+     fill="#555555"
+     stroke="#777777"
+     stroke-width="1"
+     id="rect17" />
+  <text
+     x="527.01752"
+     y="238.5965"
+     text-anchor="middle"
+     fill="#e0e0e0"
+     font-size="10px"
+     id="text17">SCHODY</text>
+  <rect
+     style="fill:#000000"
+     id="rect18"
+     width="9.1228065"
+     height="0.70175439"
+     x="277.89474"
+     y="275.78946" />
+  <rect
+     style="fill:#000000"
+     id="rect19"
+     width="17.543859"
+     height="14.736842"
+     x="376.8421"
+     y="297.54385" />
+  <rect
+     style="fill:#000000"
+     id="rect21"
+     width="8.4210529"
+     height="1.4035088"
+     x="538.94739"
+     y="186.66667" />
+  <rect
+     style="fill:#000000"
+     id="rect22"
+     width="9.8245611"
+     height="0.70175439"
+     x="524.21051"
+     y="180.35088" />
+  <rect
+     style="fill:#000000"
+     id="rect23"
+     width="9.1228065"
+     height="0.70175439"
+     x="567.7193"
+     y="204.21053" />
+  <text
+     xml:space="preserve"
+     id="text26"
+     style="fill:#000000;text-align:start;writing-mode:lr-tb;text-orientation:auto;direction:ltr;white-space:pre;shape-inside:url(#rect26)" />
+  <text
+     xml:space="preserve"
+     id="text27"
+     style="fill:#000000;text-align:start;writing-mode:lr-tb;text-orientation:auto;direction:ltr;white-space:pre;shape-inside:url(#rect27)" />
+  <text
+     xml:space="preserve"
+     id="text28"
+     style="fill:#000000;text-align:start;writing-mode:lr-tb;text-orientation:auto;direction:ltr;white-space:pre;shape-inside:url(#rect28)" />
+  <text
+     xml:space="preserve"
+     id="text29"
+     style="fill:#000000;text-align:start;writing-mode:lr-tb;text-orientation:auto;direction:ltr;white-space:pre;shape-inside:url(#rect29)" />
+  <text
+     xml:space="preserve"
+     id="text30"
+     style="fill:#000000;text-align:start;writing-mode:lr-tb;text-orientation:auto;direction:ltr;white-space:pre;shape-inside:url(#rect30)" />
+  <text
+     xml:space="preserve"
+     id="text31"
+     style="fill:#000000;text-align:start;writing-mode:lr-tb;text-orientation:auto;direction:ltr;white-space:pre;shape-inside:url(#rect31)" />
+  <text
+     xml:space="preserve"
+     id="text32"
+     style="fill:#000000;text-align:start;writing-mode:lr-tb;text-orientation:auto;direction:ltr;white-space:pre;shape-inside:url(#rect32)" />
+</svg>

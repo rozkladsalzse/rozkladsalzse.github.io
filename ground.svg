@@ -1,0 +1,497 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 800 600"
+   version="1.1"
+   id="svg27"
+   sodipodi:docname="ground.svg"
+   inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs27" />
+  <sodipodi:namedview
+     id="namedview27"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.425"
+     inkscape:cx="400"
+     inkscape:cy="300"
+     inkscape:window-width="1920"
+     inkscape:window-height="1057"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg27" />
+  <!-- Tło -->
+  <rect
+     x="-658.5965"
+     y="116.14035"
+     width="800"
+     height="600"
+     fill="#1a1a1a"
+     id="rect1"
+     transform="rotate(-90)" />
+  <!-- Główny zarys piętra -->
+  <!-- Korytarze -->
+  <rect
+     x="-552.80707"
+     y="292.63159"
+     width="480"
+     height="20"
+     fill="#333333"
+     id="rect2"
+     transform="rotate(-90)" />
+  <rect
+     x="118.94736"
+     y="382.66666"
+     width="192.98247"
+     height="20"
+     fill="#333333"
+     id="rect2-9"
+     style="stroke-width:0.634071" />
+  <rect
+     x="381.01685"
+     y="-141.15483"
+     width="178.94737"
+     height="20"
+     fill="#333333"
+     id="rect2-9-8"
+     style="stroke-width:0.610579"
+     transform="rotate(90.466991)" />
+  <rect
+     x="-550.70178"
+     y="380"
+     width="408.42105"
+     height="20"
+     fill="#333333"
+     id="rect3"
+     transform="rotate(-90)"
+     style="stroke-width:0.92243" />
+  <rect
+     x="419.62039"
+     y="565.50946"
+     width="116.03194"
+     height="12.876377"
+     fill="#333333"
+     id="rect3-9"
+     style="stroke-width:0.394502" />
+  <rect
+     x="-480.70175"
+     y="380"
+     width="20"
+     height="90"
+     fill="#333333"
+     id="rect4"
+     transform="rotate(-90)" />
+  <rect
+     x="-380.70175"
+     y="380"
+     width="20"
+     height="90"
+     fill="#333333"
+     id="rect5"
+     transform="rotate(-90)" />
+  <rect
+     x="420.07117"
+     y="521.17633"
+     width="13.17494"
+     height="57.943699"
+     fill="#333333"
+     id="rect5-8"
+     style="stroke-width:0.65124" />
+  <rect
+     x="-128.22807"
+     y="218.36842"
+     width="20"
+     height="201.57893"
+     fill="#333333"
+     id="rect5-8-5"
+     transform="rotate(-90)"
+     style="stroke-width:1.49659" />
+  <rect
+     x="-461.63159"
+     y="253.9649"
+     width="20"
+     height="40.175426"
+     fill="#333333"
+     id="rect5-8-5-5"
+     transform="rotate(-90)"
+     style="stroke-width:0.668129" />
+  <!-- Identyfikatory sal dla interakcji -->
+  <rect
+     x="229.46974"
+     y="342.27679"
+     width="67.727173"
+     height="47.727173"
+     fill="rgba(30, 136, 229, 0.2)"
+     stroke="#1e88e5"
+     stroke-width="1.64124"
+     class="room"
+     data-id="101"
+     data-name="SALA 1"
+     data-type="Sala lekcyjna"
+     id="rect6" />
+  <text
+     x="240.19887"
+     y="406.99695"
+     text-anchor="middle"
+     fill="#e0e0e0"
+     font-size="10.5638px"
+     id="text6"
+     transform="scale(1.1094608,0.90133875)"
+     style="stroke-width:0.880316">SALA 1</text>
+  <rect
+     x="162.50591"
+     y="340.75153"
+     width="56.637306"
+     height="47.865376"
+     fill="rgba(30, 136, 229, 0.2)"
+     stroke="#1e88e5"
+     stroke-width="1.50304"
+     class="room"
+     data-id="101"
+     data-name="SALA 1"
+     data-type="Sala lekcyjna"
+     id="rect6-2" />
+  <text
+     x="202.56439"
+     y="343.54855"
+     text-anchor="middle"
+     fill="#e0e0e0"
+     font-size="9.01826px"
+     id="text6-4"
+     transform="scale(0.94204403,1.0615215)"
+     style="stroke-width:0.751521">SALA 1</text>
+  <rect
+     x="-599.30188"
+     y="124.90863"
+     width="57.551247"
+     height="34.744232"
+     fill="rgba(30, 136, 229, 0.2)"
+     stroke="#1e88e5"
+     stroke-width="1.29086"
+     class="room"
+     data-id="102"
+     data-name="SALA 2"
+     data-type="Sala lekcyjna"
+     id="rect7"
+     transform="rotate(-90)" />
+  <text
+     x="-511.8692"
+     y="158.58524"
+     text-anchor="middle"
+     fill="#e0e0e0"
+     font-size="7.74514px"
+     id="text7"
+     transform="matrix(0,-1.1145939,0.89718776,0,0,0)"
+     style="stroke-width:0.645428">SALA 2</text>
+  <rect
+     x="-533.84052"
+     y="124.22968"
+     width="56.102085"
+     height="38.207348"
+     fill="rgba(30, 136, 229, 0.2)"
+     stroke="#1e88e5"
+     stroke-width="1.33651"
+     class="room"
+     data-id="103"
+     data-name="SALA 3"
+     data-type="Sala lekcyjna"
+     id="rect8"
+     transform="rotate(-90)" />
+  <text
+     x="-481.97345"
+     y="150.41595"
+     text-anchor="middle"
+     fill="#e0e0e0"
+     font-size="8.01906px"
+     id="text8"
+     transform="matrix(0,-1.0494136,0.95291314,0,0,0)"
+     style="stroke-width:0.668255">SALA 3</text>
+  <rect
+     x="-469.71902"
+     y="125.01778"
+     width="63.648617"
+     height="42.946861"
+     fill="rgba(30, 136, 229, 0.2)"
+     stroke="#1e88e5"
+     stroke-width="1.50928"
+     class="room"
+     data-id="104"
+     data-name="SALA 4"
+     data-type="Sala lekcyjna"
+     id="rect9"
+     transform="rotate(-90)" />
+  <text
+     x="-415.34628"
+     y="154.44395"
+     text-anchor="middle"
+     fill="#e0e0e0"
+     font-size="9.05567px"
+     id="text9"
+     transform="matrix(0,-1.0542883,0.94850714,0,0,0)"
+     style="stroke-width:0.75464">SALA 4</text>
+  <rect
+     x="110.11266"
+     y="328.88458"
+     width="48.897465"
+     height="56.967644"
+     fill="rgba(30, 136, 229, 0.2)"
+     stroke="#1e88e5"
+     stroke-width="1.52359"
+     class="room"
+     data-id="105"
+     data-name="SALA 5"
+     data-type="Sala lekcyjna"
+     id="rect10" />
+  <text
+     x="167.71068"
+     y="286.73175"
+     text-anchor="middle"
+     fill="#e0e0e0"
+     font-size="9.14151px"
+     id="text10"
+     transform="scale(0.80234232,1.2463508)"
+     style="stroke-width:0.761793">SALA 5</text>
+  <path
+     id="rect10-5"
+     class="room"
+     d="m 278.859,140.8601 v -25.26316 h -60 v 25.26316 z"
+     style="stroke-width:0.561951" />
+  <text
+     x="250.21687"
+     y="133.24527"
+     text-anchor="middle"
+     fill="#e0e0e0"
+     font-size="12px"
+     id="text10-2">SZATNIE</text>
+  <path
+     id="rect10-5-6"
+     class="room"
+     d="m 376.70176,138.24562 v -25.26316 h -60 v 25.26316 z"
+     style="stroke-width:0.561951" />
+  <text
+     x="346.65613"
+     y="131.33253"
+     text-anchor="middle"
+     fill="#e0e0e0"
+     font-size="12px"
+     id="text10-2-1">POKOJEWF</text>
+  <rect
+     x="-585.78949"
+     y="298.5965"
+     width="80"
+     height="80"
+     fill="rgba(30, 136, 229, 0.2)"
+     stroke="#1e88e5"
+     stroke-width="2"
+     class="room"
+     data-id="106"
+     data-name="SALA 6"
+     data-type="Sala lekcyjna"
+     id="rect11"
+     transform="rotate(-90)" />
+  <text
+     x="-545.78949"
+     y="338.5965"
+     text-anchor="middle"
+     fill="#e0e0e0"
+     font-size="12px"
+     id="text11"
+     transform="rotate(-90)">SALA 6</text>
+  <rect
+     x="-492.38464"
+     y="188.31711"
+     width="80.207878"
+     height="64.067528"
+     fill="rgba(30, 136, 229, 0.2)"
+     stroke="#1e88e5"
+     stroke-width="1.79212"
+     class="room"
+     data-id="107"
+     data-name="SALA 7"
+     data-type="Sala lekcyjna"
+     id="rect12"
+     transform="rotate(-90)" />
+  <text
+     x="-452.2807"
+     y="223.50877"
+     text-anchor="middle"
+     fill="#e0e0e0"
+     font-size="12px"
+     id="text12"
+     transform="rotate(-90)">SALA 7</text>
+  <rect
+     x="-338.76736"
+     y="312.987"
+     width="38.587399"
+     height="70.868103"
+     fill="rgba(30, 136, 229, 0.2)"
+     stroke="#1e88e5"
+     stroke-width="1.30734"
+     class="room"
+     data-id="108"
+     data-name="SALA 8"
+     data-type="Sala lekcyjna"
+     id="rect13"
+     transform="rotate(-90)" />
+  <rect
+     x="-500.70175"
+     y="450"
+     width="60"
+     height="50"
+     fill="rgba(0, 188, 212, 0.3)"
+     stroke="#00bcd4"
+     stroke-width="2"
+     class="room"
+     data-id="111"
+     data-name="WC"
+     data-type="Toaleta"
+     id="rect16"
+     transform="rotate(-90)" />
+  <text
+     x="-470.70175"
+     y="475"
+     text-anchor="middle"
+     fill="#e0e0e0"
+     font-size="12px"
+     id="text16"
+     transform="rotate(-90)">WC</text>
+  <rect
+     x="-400.70175"
+     y="450"
+     width="60"
+     height="50"
+     fill="rgba(0, 188, 212, 0.3)"
+     stroke="#00bcd4"
+     stroke-width="2"
+     class="room"
+     data-id="112"
+     data-name="WC"
+     data-type="Toaleta"
+     id="rect17"
+     transform="rotate(-90)" />
+  <text
+     x="-370.70175"
+     y="475"
+     text-anchor="middle"
+     fill="#e0e0e0"
+     font-size="12px"
+     id="text17"
+     transform="rotate(-90)">WC</text>
+  <rect
+     x="-100.70175"
+     y="220"
+     width="80"
+     height="160"
+     fill="rgba(30, 136, 229, 0.2)"
+     stroke="#1e88e5"
+     stroke-width="2"
+     class="room"
+     data-id="113"
+     data-name="SALA GIMNASTYCZNA"
+     data-type="Sala sportowa"
+     id="rect18"
+     transform="rotate(-90)" />
+  <text
+     x="295.41504"
+     y="64.689056"
+     text-anchor="middle"
+     fill="#e0e0e0"
+     font-size="12px"
+     id="text18">SALA GIMNASTYCZNA</text>
+  <path
+     d="M 380,550.70175 V 70.701754"
+     stroke="#4caf50"
+     stroke-width="3"
+     stroke-dasharray="5, 5"
+     id="path25" />
+  <path
+     d="m 380,480.70175 h 90"
+     stroke="#4caf50"
+     stroke-width="3"
+     stroke-dasharray="5, 5"
+     id="path26" />
+  <path
+     d="m 380,380.70175 h 90"
+     stroke="#4caf50"
+     stroke-width="3"
+     stroke-dasharray="5, 5"
+     id="path27" />
+  <rect
+     x="393.75592"
+     y="509.23743"
+     width="26.34988"
+     height="19.314566"
+     fill="#555555"
+     stroke="#777777"
+     stroke-width="0.65124"
+     id="rect27" />
+  <text
+     x="402.29364"
+     y="528.1322"
+     text-anchor="middle"
+     fill="#e0e0e0"
+     font-size="6.5124px"
+     id="text27"
+     transform="scale(1.011527,0.98860435)"
+     style="stroke-width:0.65124">SCHODY</text>
+  <rect
+     x="-183.83333"
+     y="270.85089"
+     width="40"
+     height="30"
+     fill="#555555"
+     stroke="#777777"
+     stroke-width="1"
+     id="rect27-7"
+     transform="rotate(-90)" />
+  <text
+     x="-163.83333"
+     y="290.85089"
+     text-anchor="middle"
+     fill="#e0e0e0"
+     font-size="10px"
+     id="text27-1"
+     transform="rotate(-90)">SCHODY</text>
+  <rect
+     x="471.46497"
+     y="546.83868"
+     width="52.69976"
+     height="51.505508"
+     fill="rgba(30, 136, 229, 0.2)"
+     stroke="#1e88e5"
+     stroke-width="1.30248"
+     class="room"
+     data-id="109"
+     data-name="SEKRETARIAT"
+     data-type="Administracja"
+     id="rect14" />
+  <text
+     x="762.94843"
+     y="377.27487"
+     text-anchor="middle"
+     fill="#e0e0e0"
+     font-size="11.5574px"
+     id="text14"
+     transform="scale(0.65158575,1.5347174)"
+     style="stroke-width:0.963114">SEKRETARIAT</text>
+  <text
+     xml:space="preserve"
+     style="text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000"
+     x="327.01755"
+     y="324.21051"
+     id="text1"><tspan
+       sodipodi:role="line"
+       id="tspan1"
+       x="327.01755"
+       y="324.21051"
+       style="fill:#fcfcfc;fill-opacity:1">SZTANIA</tspan></text>
+</svg>

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interaktywny Plan Szkoły</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Możesz dodać to do styles.css */
+        .floor-map {
+            display: none;
+        }
+
+        .floor-map.active {
+            display: block;
+        }
+
+        .floor-button.active {
+            background-color: #007bff;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Panel boczny -->
+        <div class="sidebar">
+            <div class="logo">Plan Szkoły ZSE</div>
+            <div class="search-box">
+                <input type="text" id="search-input" placeholder="Wyszukaj salę...">
+                <button id="search-button">Szukaj</button>
+            </div>
+        </div>
+
+        <!-- Główna zawartość -->
+        <div class="main-content">
+            <div class="floor-buttons">
+                <button class="floor-button" data-floor="basement">Piwnice</button>
+                <button class="floor-button" data-floor="ground">Parter</button>
+                <button class="floor-button" data-floor="first">I Piętro</button>
+                <button class="floor-button" data-floor="second">II Piętro</button>
+            </div>
+
+            <div class="map-container">
+                <div class="floor-map" id="basement-map">
+                    <!-- Mapa piwnicy -->
+                </div>
+                <div class="floor-map" id="ground-map">
+                    <!-- Mapa parteru -->
+                </div>
+                <div class="floor-map" id="first-map">
+                    <!-- Mapa I piętra -->
+                </div>
+                <div class="floor-map" id="second-map">
+                    <!-- Mapa II piętra -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Popup z informacjami o sali -->
+    <div class="room-popup" id="room-popup">
+        <div class="popup-header">
+            <h3 id="popup-title">Sala 101</h3>
+            <span class="close-popup">&times;</span>
+        </div>
+        <div class="popup-content">
+            <p id="popup-description">Opis sali</p>
+            <p id="popup-floor">Piętro: Parter</p>
+            <p id="popup-type">Typ: Sala lekcyjna</p>
+        </div>
+    </div>
+
+    <script>
+        // DOMYŚLNIE POKAŻ PARTER
+        document.addEventListener("DOMContentLoaded", () => {
+            const floorButtons = document.querySelectorAll(".floor-button");
+            const maps = document.querySelectorAll(".floor-map");
+
+            function showFloor(floorName) {
+                maps.forEach(map => {
+                    map.classList.toggle("active", map.id === `${floorName}-map`);
+                });
+                floorButtons.forEach(btn => {
+                    btn.classList.toggle("active", btn.dataset.floor === floorName);
+                });
+            }
+
+            // Domyślnie pokaż parter
+            showFloor("ground");
+
+            // Obsługa kliknięć
+            floorButtons.forEach(button => {
+                button.addEventListener("click", () => {
+                    showFloor(button.dataset.floor);
+                });
+            });
+        });
+    </script>
+</body>
+</html>
