@@ -1,0 +1,130 @@
+// Lista pięter
+const FLOORS = ["basement", "ground", "first", "second"];
+
+// ------------------------------
+// Ładowanie map SVG z tego samego folderu
+// ------------------------------
+function loadFloorMaps() {
+    FLOORS.forEach(floor => {
+        const mapContainer = document.getElementById(`${floor}-map`);
+        const svgPath = `${floor}.svg?v=${Date.now()}`; // bust cache per load
+
+        fetch(svgPath)
+            .then(response => {
+                if (!response.ok) throw new Error(`Nie udało się załadować ${svgPath}`);
+                return response.text();
+            })
+            .then(svgContent => {
+                mapContainer.innerHTML = svgContent;
+                enableRoomInteractions(mapContainer, floor);
+            })
+            .catch(err => console.error(err));
+    });
+}
+
+// ------------------------------
+// Kliknięcia na sale
+// ------------------------------
+function enableRoomInteractions(mapContainer, floorName) {
+    const rooms = mapContainer.querySelectorAll("[id^='room-'], .room");
+    rooms.forEach(room => {
+        room.style.cursor = "pointer";
+        room.addEventListener("click", () => {
+            showRoomPopup(room.id || "Nieznana sala", floorName);
+        });
+    });
+}
+
+// ------------------------------
+// Pokazywanie popupu z informacjami o sali
+// ------------------------------
+function showRoomPopup(roomId, floorName) {
+    const popup = document.getElementById("room-popup");
+    document.getElementById("popup-title").textContent = roomId;
+    document.getElementById("popup-description").textContent = `To jest opis dla ${roomId}.`;
+    document.getElementById("popup-floor").textContent = `Piętro: ${formatFloorName(floorName)}`;
+    document.getElementById("popup-type").textContent = "Typ: Sala lekcyjna";
+
+    popup.style.display = "block";
+
+    popup.querySelector(".close-popup").onclick = () => {
+        popup.style.display = "none";
+    };
+}
+
+// ------------------------------
+// Formatowanie nazw pięter
+// ------------------------------
+function formatFloorName(name) {
+    switch(name) {
+        case "basement": return "Piwnica";
+        case "ground": return "Parter";
+        case "first": return "I Piętro";
+        case "second": return "II Piętro";
+        default: return name;
+    }
+}
+
+// ------------------------------
+// Wyszukiwarka sal
+// ------------------------------
+function enableSearch() {
+    const input = document.getElementById("search-input");
+    const button = document.getElementById("search-button");
+
+    button.addEventListener("click", () => {
+        const query = input.value.trim().toLowerCase();
+        if (!query) return;
+
+        let found = false;
+
+        FLOORS.forEach(floor => {
+            const map = document.getElementById(`${floor}-map`);
+            const rooms = map.querySelectorAll("[id^='room-'], .room");
+
+            rooms.forEach(room => {
+                if (room.id.toLowerCase().includes(query)) {
+                    showFloor(floor);
+                    highlightRoom(room);
+                    found = true;
+                }
+            });
+        });
+
+        if (!found) alert("Nie znaleziono takiej sali!");
+    });
+}
+
+// ------------------------------
+// Podświetlenie sali
+// ------------------------------
+function highlightRoom(room) {
+    room.style.transition = "fill 0.3s, stroke 0.3s";
+    const oldColor = room.getAttribute("fill") || "#ccc";
+    room.setAttribute("fill", "#ffcc00");
+    setTimeout(() => room.setAttribute("fill", oldColor), 1500);
+}
+
+// ------------------------------
+// Pokazywanie piętra
+// ------------------------------
+function showFloor(floorName) {
+    const maps = document.querySelectorAll(".floor-map");
+    const buttons = document.querySelectorAll(".floor-button");
+
+    maps.forEach(map => map.classList.toggle("active", map.id === `${floorName}-map`));
+    buttons.forEach(btn => btn.classList.toggle("active", btn.dataset.floor === floorName));
+}
+
+// ------------------------------
+// START po załadowaniu DOM
+// ------------------------------
+document.addEventListener("DOMContentLoaded", () => {
+    loadFloorMaps();
+    enableSearch();
+    showFloor("ground"); // domyślnie parter
+
+    document.querySelectorAll(".floor-button").forEach(button => {
+        button.addEventListener("click", () => showFloor(button.dataset.floor));
+    });
+});

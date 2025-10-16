@@ -263,11 +263,11 @@
   <path
      id="rect10-5"
      class="room"
-     d="m 278.859,140.8601 v -25.26316 h -60 v 25.26316 z"
+     d="m 289.38532,140.15835 v -25.26316 h -60 v 25.26316 z"
      style="stroke-width:0.561951" />
   <text
-     x="250.21687"
-     y="133.24527"
+     x="260.74319"
+     y="132.54352"
      text-anchor="middle"
      fill="#e0e0e0"
      font-size="12px"
@@ -329,8 +329,8 @@
      id="text12"
      transform="rotate(-90)">SALA 7</text>
   <rect
-     x="-338.76736"
-     y="312.987"
+     x="-274.90771"
+     y="310.88174"
      width="38.587399"
      height="70.868103"
      fill="rgba(30, 136, 229, 0.2)"
@@ -462,6 +462,25 @@
      id="text27-1"
      transform="rotate(-90)">SCHODY</text>
   <rect
+     x="-147.32457"
+     y="206.30702"
+     width="28.385983"
+     height="19.789492"
+     fill="#555555"
+     stroke="#777777"
+     stroke-width="0.684193"
+     id="rect27-7-9"
+     transform="rotate(-90)" />
+  <text
+     x="-128.3559"
+     y="227.66687"
+     text-anchor="middle"
+     fill="#e0e0e0"
+     font-size="6.84193px"
+     id="text27-1-4"
+     transform="matrix(0,-1.0372066,0.96412807,0,0,0)"
+     style="stroke-width:0.684193">SCHODY</text>
+  <rect
      x="471.46497"
      y="546.83868"
      width="52.69976"
@@ -486,12 +505,23 @@
   <text
      xml:space="preserve"
      style="text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000"
-     x="327.01755"
-     y="324.21051"
+     x="324.91229"
+     y="260.35086"
      id="text1"><tspan
        sodipodi:role="line"
        id="tspan1"
-       x="327.01755"
-       y="324.21051"
+       x="324.91229"
+       y="260.35086"
        style="fill:#fcfcfc;fill-opacity:1">SZTANIA</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:13.3333px;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#fcfcfc"
+     x="164.21053"
+     y="301.05261"
+     id="text2"><tspan
+       sodipodi:role="line"
+       id="tspan2"
+       x="164.21053"
+       y="301.05261"
+       style="font-size:13.3333px">Wejscie do szkolly --&gt;</tspan></text>
 </svg>
